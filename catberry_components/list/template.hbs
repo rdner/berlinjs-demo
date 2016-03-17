@@ -1,0 +1,12 @@
+<ul>
+	<li><a href="/animals">Funny Animals</a></li>
+	<li><a href="/food">Funny Food</a></li>
+</ul>
+
+<h1>{{title}}</h1>
+
+<ul>
+	{{#each items}}
+		<cat-item id="list:item:{{@index}}" index="{{@index}}" cat-store="List"></cat-item>
+	{{/each}}
+</ul>
